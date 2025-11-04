@@ -32,6 +32,13 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
 
   @override
   Widget build(context) {
+    // if (currentQuestionIndex >= questions.length) {
+    //   return const Center(
+    //       child: Text(
+    //     'You answers all question!',
+    //     style: TextStyle(fontSize: 24, color: Colors.white),
+    //   ));
+    // }
     final currentQuestion = questions[currentQuestionIndex];
 
     return SizedBox(
